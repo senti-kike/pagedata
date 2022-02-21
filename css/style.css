@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+/* webページ全体に適用 */
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: white;
+}
+.wrapper {
+    margin: 0 auto 0 auto;
+    width: 1280px;
+}
+h1 {
+    color: #44110e;
+    font-size: 26px;
+    border-bottom: 1px solid #44110e;
+    margin: 20px 0px 30px 0px;
+    padding: 10px 10px 10px 20px;
+}
+a:link {
+    color: #1a8dab;
+    text-decoration: none;
+}
+a:visited {
+    color: #609;
+}
+a:hover {
+    color: #1a8dab;
+    text-decoration: underline;
+}
+a:active {
+    color: #1a8dab;
+}
+
+#nav li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
+}
+#nav {
+    margin: 0 0 0;
+    padding: 10px 30px 10px 30px;
+    background-color: #44110e;
+}
+#nav li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+#nav li a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+#nav li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+#nav li a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* footer */
+.loc_home {
+    margin-left: 20px;
+    padding: 10px 0 0 0;
+}
+#footer {
+    text-align: center;
+    border-top: 1px solid #44110e;
+    margin-top: 30px;
+    padding: 20px 0 20px 0;
+    color: #44110e;
+}
+
+/* index */
+.info_item {
+    padding: 3px;
+    margin: 0 0 0 0;
+}
+
+/* Takasaki Line */
+#takasaki_table {
+    border-collapse: collapse;
+    border: 1px solid #44110e;
+}
+#takasaki_table th, #takasaki_table td {
+    padding: 8px 8px 8px 8px;
+    border: 1px solid #44110e;
+    text-align: left;
+    vertical-align: middle;
+}
+#takasaki_table th {
+    background-color:  #ac724b;
+    color: #ebe1bb;
+}
+
+/* ショバ毎 */
+.menu_block {
+    overflow: hidden;
+}
+.menu_left {
+    float: left;
+    width: 360px;
+    margin-right: 20px;
+}
+.menu_right {
+    float: left;
+    width: 900px;
+}
+table.menu_all {
+    border: none;
+    border-collapse: collapse;
+}
+table.menu_all td {
+    padding: 0;
+}
+table.menu_all td.photo {
+    padding:  0 10px 15px 0;
+}
+.menu_right h3 {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #442220;
+}
+.menu_right p {
+    font-size: 16px;
+}
+.photo {
+    float: left;
+}
+
+/* ショバ情報 */
+table.menu_under {
+    border-collapse: collapse;
+    border: 1px solid #44110e;
+}
+table.menu_under th, table.menu_under td {
+    padding: 8px 8px 8px 8px;
+    border: 1px solid #44110e;
+    text-align: left;
+    vertical-align: middle;
+}
+table.menu_under th {
+    background-color:  #ac724b;
+    color: #ebe1bb;
+}
+
+/* 問い合わせページ */
+.ck {
+    width: 600px;
+    margin-left: 20px;
+}
+table.check {
+    width: 600px;
+    border: 1px solid #aaa;
+}
+table.check th,table.check td {
+    padding: 10px;
+    border: 1px solid #aaa;
+    vertical-align: middle;
+}
+table.check th {
+    background-color: #eeeeee;
+    text-align: center;
+    width: 200px;
+}
+table.check td {
+    width: 400px;
+}
+.check_btn {
+    border: solid 1px #bbb0af;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: #ac724b;
+    color: #ebe1bb;
+}
+.chech_btn:hover {
+    border: solid 1px #442220;
+    background-color: #ac693c;
+    color: #dac77e;
+}
+/* contact */
+form {
+    width: 600px;
+    margin-left: 20px;
+}
+table.contact {
+    width: 600px;
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+    margin: 10px 0 20px 0;
+}
+table.contact th, table.contact td {
+    border: 1px solid #aaa;
+    text-align: left;
+    vertical-align: middle;
+    padding: 8px 8px 8px 8px;
+}
+input[type="text"], input[type="email"] {
+    border: solid 1px #aaa;
+    border-radius: 5px ;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+input[type="email"]{
+    width: 300px;
+}
+textarea {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 160px;
+    font-size: 15px;
+}
+.question {
+    margin-left: 10px;
+}
+select {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-size: 15px;
+}
+.sub_botton {
+    text-align: center;
+}
+.submit_btn {
+    border: 1px solid #bbb0af;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #ac724b;
+    color: #ebe1bb;
+}
+.submit_btn:hover {
+    border: 1px solid #442220;
+    background-color: #ac693c;
+    color: #dac77e;
+}
