@@ -41,6 +41,15 @@ a:active {
 .train.line26001 {
     border-color: orange;
 }
+.train.line26003 {
+    border-color: mediumseagreen;
+}
+.train.line26005 {
+    border-color: red;
+}
+.train.line26007 {
+    border-color: orange;
+}
 .train {
     position: relative;
     width: 96px;
