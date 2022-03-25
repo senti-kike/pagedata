@@ -21,9 +21,9 @@ a:active {
 }
 .station{
     fill: white;
-    background-color: blue;
+    background-color: #303030;
 }
 .line{
     fill: white;
-    background-color: skyblue;
+    background-color: #303030;
 }
