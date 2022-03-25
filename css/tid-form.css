@@ -19,3 +19,11 @@ a:hover {
 a:active {
     color: white;
 }
+.station{
+    fill: white;
+    background-color: blue;
+}
+.section{
+    fill: white;
+    background-color: yellow;
+}
