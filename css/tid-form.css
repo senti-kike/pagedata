@@ -34,3 +34,7 @@ a:active {
 .loc_move{
     font-size: 13px;
 }
+.station2{
+    fill: white;
+    background-color: skyblue;
+}
