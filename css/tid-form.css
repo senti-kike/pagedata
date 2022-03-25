@@ -47,9 +47,6 @@ a:active {
 .train.line26005 {
     border-color: red;
 }
-.train.line26007 {
-    border-color: orange;
-}
 .train {
     position: relative;
     width: 96px;
@@ -62,7 +59,7 @@ div {
     position: absolute;
     left: 4px;
     top: 0;
-    width: 52px;
+    width: 56px;
     height: 20px;
     background-color: white;
     border: solid;
@@ -73,7 +70,7 @@ div {
 }
 .train > .down {
     position: absolute;
-    left: 60px;
+    left: 64px;
     top: 0;
     width: 0;
     height: 0;
@@ -81,6 +78,19 @@ div {
     border-width: 12px 0 12px 4px;
     border-left-color: inherit;
     border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+.train > .up {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: solid;
+    border-width: 12px 4px 12px 0;
+    border-left-color: transparent;
+    border-right-color: inherit;
     border-top-color: transparent;
     border-bottom-color: transparent;
 }
@@ -96,7 +106,7 @@ div {
 }
 .train > .info {
     position: absolute;
-    left: 64px;
+    left: 67px;
     top: 10px;
     width: 48px;
     height: 16px;
