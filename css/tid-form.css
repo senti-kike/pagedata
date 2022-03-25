@@ -21,9 +21,16 @@ a:active {
 }
 .station{
     fill: white;
-    background-color: #303030;
+    background-color: blue;
 }
 .line{
     fill: white;
-    background-color: #303030;
+    background-color: skyblue;
+}
+.line2{
+    fill: white;
+    background-color: blue;
+}
+.loc_move{
+    font-size: 7px;
 }

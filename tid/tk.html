@@ -7,7 +7,11 @@
         <script type="text/javascript"></script>
     </head>
     <body>
-        <p>高崎線</p>
+        <div class="head">
+            <p>高崎線</p>
+            <a href="../index.html" class="loc_move" style="position: absolute; left: 80px; top: 24px;">ホーム</a>
+            <a href="../tid-home.html" class="loc_move" style="position: absolute; left: 120px; top: 24px;">TID</a>
+        </div>
         <div id="Omiya" class="station" style="height: 288px; float: left; position: relative; width: 288px;">
             <svg width="288px" height="288px" viewBox="-96 -96 288 192">
                 <text x="30" y="-110" font-size="16" text-anchor="middle">大宮</text>
@@ -28,6 +32,14 @@
             </svg>
             <div id="sec1" class="section" style="position: absolute; top: 64px; left: 0px; height: 96px; width: 64px;"></div>
             <div id="sec101" class="section" style="position: absolute; top: 96px; left: 0px; height: 96px; width: 64px;"></div>
+        </div>
+        <div class="line2" style="height: 192px; float: left; position: relative; width: 64px;">
+            <svg width="64px" height="192px" viewBox="0,0,64,192">
+                <line x1="0" y1="112" x2="96" y2="112" stroke="white" stroke-width="2"></line>
+                <line x1="0" y1="144" x2="96" y2="144" stroke="white" stroke-width="2"></line>
+            </svg>
+            <div id="sec2" class="section" style="position: absolute; top: 64px; left: 0px; height: 96px; width: 64px;"></div>
+            <div id="sec102" class="section" style="position: absolute; top: 96px; left: 0px; height: 96px; width: 64px;"></div>
         </div>
     </body>
 </html>
