@@ -21,20 +21,77 @@ a:active {
 }
 .station{
     fill: white;
-    background-color: #303030;
+    background-color: blue;
 }
 .line{
     fill: white;
-    background-color: #303030;
+    background-color: skyblue;
 }
 .line2{
     fill: white;
-    background-color: #303030;
+    background-color: blue;
 }
 .loc_move{
     font-size: 13px;
 }
 .station2{
     fill: white;
-    background-color: #303030;
+    background-color: skyblue;
+}
+.train.line26001 {
+    border-color: orange;
+}
+.train {
+    position: relative;
+    width: 96px;
+    height: 24px;
+}
+div {
+    display: block;
+}
+.train > .box {
+    position: absolute;
+    left: 4px;
+    top: 0;
+    width: 52px;
+    height: 20px;
+    background-color: white;
+    border: solid;
+    border-color: inherit;
+    border-width: 2px;
+    font-size: 12px;
+    color: #303030;
+}
+.train > .down {
+    position: absolute;
+    left: 60px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: solid;
+    border-width: 12px 0 12px 4px;
+    border-left-color: inherit;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+.section {
+    position: absolute;
+    left: 0px;
+    height: 96px;
+    width: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+.train > .info {
+    position: absolute;
+    left: 64px;
+    top: 10px;
+    width: 48px;
+    height: 16px;
+    color: white;
+    font-size: 12px;
+    z-index: 3;
 }
