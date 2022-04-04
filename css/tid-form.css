@@ -116,9 +116,9 @@ div {
 }
 .train > .delay {
     position: absolute;
-    left: 64px;
+    left: 67px;
     top: -4px;
-    width: 32px;
+    width: 48px;
     height: 16px;
     color: #f6608b;
     font-size: 12px;
