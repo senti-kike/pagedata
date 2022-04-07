@@ -8,9 +8,8 @@
     <body>
         <div class="wrapper">
             <!-- ヘッダー開始 -->
-            <a href="index.html"><img src="images/takasaki/800_22A_0156.JPG" alt="location map"></a>
             <ul id="nav">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li><a href="takasaki.html">高崎線</a></li>
                 <li><a href="tid-home.html">簡易TID</a></li>
             </ul>

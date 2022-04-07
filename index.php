@@ -1,3 +1,3 @@
 <?php
-    require("public/index.html"); 
+    require("public/home.php"); 
 ?>
