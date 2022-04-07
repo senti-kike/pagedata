@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8f55b5d3e4a263e52cbc885181f6b410c9f8ea97',
+        'reference' => '191080ea3f6356bf56a06f39c73fb1976c2ae2f1',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8f55b5d3e4a263e52cbc885181f6b410c9f8ea97',
+            'reference' => '191080ea3f6356bf56a06f39c73fb1976c2ae2f1',
             'dev_requirement' => false,
         ),
         'alrik11es/cowsayphp' => array(
@@ -93,8 +93,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'silex/api' => array(
