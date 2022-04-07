@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <title>苦情・問い合わせ -location</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <h1>お問い合わせ</h1>
+        <form method="post" action="check.php">
+            <p>メールが未達とならないように、ドメイン制限受信をしている方は<br>
+                「@gmail.com」からのメールを受信できる設定にご変更ください</p>
+            <table class="contact">
+                <tr>
+                    <th>
+                        <label for="yourname">お名前</label>
+                    </th>
+                    <td>
+                        <input id="yourname" type="text" name="your-name" size="34" maxlength="20" placeholder="例:海見 珈琲">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="youremail">E-mail</label>
+                    </th>
+                    <td>
+                        <input id="youremail" type="email" name="your-mail" size="38" maxlength="40" placeholder="例:sample@sample.co.jp">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="yourmessage">メッセージ本文</label>
+                    </th>
+                    <td>
+                        <textarea id="yourmessage" name="your-message" rows="8" cols="40" placeholder="例:ここにメッセージを入力してください"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>アンケート</th>
+                    <td>
+                        <div class="qustion">
+                            <div>
+                                <p>性別</p>
+                                <input id="male" type="radio" name="gender" value="男性">
+                                <label for="male">男性</label>
+                                <input id="female" type="radio" name="gender" value="女性">
+                                <label for="female">女性</label>
+                            </div><br>
+                            <div>
+                                <p>このサイトを知ったきっかけは？</p>
+                                <input id="web" type="checkbox" name="know[]" value="webサイト" checked>
+                                <label for="web">webサイト</label>
+                                <input id="introduction" type="checkbox" name="know[]" value="知人の紹介">
+                                <label for="introduction">知人の紹介</label>
+                                <input id="magazine" type="checkbox" name="know[]" value="雑誌">
+                                <label for="magazine">雑誌</label>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="sub_button">
+                <input class="submit_btn" type="submit" name="submit" value="入力内容を確認する">
+            </div>
+        </form>
+        <a href="index.html">ホーム</a>
+                    <!-- フッター -->
+        <div id="footer">
+            <small>&copy;Copyright @takakike_ All rights reserved.</small>
+        </div>
+    </body>
+</html>
